@@ -11,6 +11,6 @@ isPalindrome(12321)    ==> true
 isPalindrome(123456)   ==> false
 */
 
-function isPalindrome(line) {
-  return undefined;
+const isPalindrome = (line) => {
+  return line === ((line.split('')).reverse()).join('') ? true : false;
 }
